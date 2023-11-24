@@ -7,7 +7,7 @@
 }
 
 .divheaderimg{
-    background-image: linear-gradient(#fff, #dbdbdb);
+    background-image: linear-gradient(#fff, #fff, #fff, #dbdbdb);
     padding: 10px;
     padding-left: 5%;
 }
@@ -29,7 +29,7 @@
 }
 
 .heresWhat{
-    background-image: linear-gradient(#fff, #dbdbdb);
+    background-image: linear-gradient(#fff, #fff, #fff, #dbdbdb);
     padding: 30px 50px;
     display: flex;
     justify-content: center;
@@ -57,4 +57,45 @@
     width: 70%;
     padding: 30px 0px;
     
+}
+
+.depoimento {
+    border: #ddd 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.depoimento > div > div > img{
+    width: 60%;
+    border-radius: 50%;
+    border: #BE4500 2px solid;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.dividirimgcoluna {
+    columns: 2;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.dividirimgcoluna_img {
+    
+    width: 40%;    
+}
+
+.dividirimgcoluna_p {
+    width: 60%;
+    text-align: left; 
+    color: #BE4500;
 }
