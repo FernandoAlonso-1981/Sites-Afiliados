@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     border: none;
     padding: 0px;
@@ -22,20 +24,32 @@
     flex-direction: column;
     padding: 30px 50px;
     font-size: 30px;
+    
 }
 
 .divheaderh2 > p {
     font-size: 0.7em;
 }
 
-.heresWhat{
+.heresWhat {
+    columns: 2;
     background-image: linear-gradient(#fff, #fff, #fff, #dbdbdb);
     padding: 30px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;   
+      
+}
+
+.heresWhatc1 {
+    
+    width: 70%;
+}
+
+.heresWhatc2 {
+    
+    width: 30%;   
 }
 
 .heresWhatc1_div1 > p{
@@ -68,7 +82,8 @@
     flex-direction: column;
     padding: 20px;
     margin: 20px;
-    width: 300px;
+    width: 90%;
+    
 }
 
 .depoimento > div > div > img{
@@ -86,7 +101,7 @@
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
-   
+    
 }
 
 .dividirimgcoluna_img {
@@ -95,7 +110,93 @@
 }
 
 .dividirimgcoluna_p {
+    
     width: 60%;
     text-align: left; 
     color: #BE4500;
+}
+
+.callaction {
+    background-image: linear-gradient(#dbdbdb, #dbdbdb, #fff, #fff);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+    flex-direction: column;
+}
+
+.heresWhatc1_div1_h20 {
+    color: #BE4500;
+    font-size: 1.9em;
+}
+
+.heresWhatc1_div1_h21 {
+    color: #187100;
+    font-size: 1.9em;
+}
+
+.botao {
+    background-color: #F46700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 84%;
+}
+
+.linkbotao {
+    font-size: 2.1em;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkurldiv{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linkurl1 {
+    font-size: 1.4em;
+    cursor: pointer;
+    color: #0066C5;
+}
+
+.questions {
+    background-color: #FFFBF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px 10px;
+    
+}
+
+.questions-div{
+    font-size: 30px;    
+}
+
+.questions-all{
+    margin-top: 30px;
+}
+
+.questions-column1 {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.sumario {
+    font-size: em;
+}
+@media screen and (max-width: 768px){
+    .heresWhatc2 {
+        display: none;
+    }
 }
