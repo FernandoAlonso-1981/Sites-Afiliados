@@ -33,7 +33,7 @@
 
 .heresWhat {
     columns: 2;
-    background-image: linear-gradient(#fff, #fff, #fff, #dbdbdb);
+    background-image: linear-gradient(#fff);
     padding: 30px 50px;
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@
 }
 
 .callaction {
-    background-image: linear-gradient(#dbdbdb, #dbdbdb, #fff, #fff);
+    background-image: linear-gradient(#fff, #fff, #dbdbdb, #dbdbdb);
     padding: 30px 50px;
     display: flex;
     justify-content: center;
@@ -176,25 +176,51 @@
     text-align: center;
     flex-direction: column;
     padding: 30px 10px;
-    
 }
 
 .questions-div{
-    font-size: 30px;    
+    font-size: 30px; 
+      
 }
 
 .questions-all{
     margin-top: 30px;
+    width: 100%;
+    columns: 2;
 }
 
 .questions-column1 {
+    
+    
+    margin: auto;
+    overflow: hidden; 
+    
+}
+
+
+.detalhes {
+    font-size: 1em;
     background-color: #ddd;
-    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
 }
 
 .sumario {
-    font-size: em;
+    font-size: 1.1em;
+    
 }
+
+.pduv {
+    padding: 10px;    
+    text-align: justify;
+    font-size: 0.98em;
+    
+}
+
+
+
+
 @media screen and (max-width: 768px){
     .heresWhatc2 {
         display: none;
