@@ -15,7 +15,10 @@
     background-image: linear-gradient(#fff, #fff, #fff, #dbdbdb);
     padding: 10px;
     padding-left: 5%;
+}
 
+.imgHeader{
+    width: 210px;
 }
 
 .divheaderh2{
