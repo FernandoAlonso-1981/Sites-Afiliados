@@ -319,4 +319,8 @@ details[open] > summary {
         width: 100%;
         scale: 100%;
     }
+
+    .footerp {
+        padding: 0px;
+    }
 }
