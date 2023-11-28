@@ -43,12 +43,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .heresWhatc1 {
     
-    width: 70%;
+    width: 50%;
 }
 
 .heresWhatc2 {
@@ -120,6 +119,7 @@
     color: #BE4500;
 }
 
+
 .callaction {
     background-image: linear-gradient(#fff, #fff, #dbdbdb, #dbdbdb);
     padding: 30px 50px;
@@ -150,7 +150,6 @@
     padding: 30px;
     margin: 10px;
     border-radius: 10px;
-    width: 84%;
 }
 
 .linkbotao {
@@ -184,18 +183,25 @@
 
 .questions-div{
     font-size: 30px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
       
 }
 
 .questions-all{
     margin-top: 30px;
-    width: 100%;
     columns: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .questions-column1 {
-    
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
     margin: auto;
     overflow: hidden; 
     
@@ -203,7 +209,7 @@
 
 
 .detalhes {
-    font-size: 1em;
+    font-size: 1.1em;
     background-color: #ddd;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -241,7 +247,7 @@ details[open] > summary {
 
 .heresWhatc1_div1_h3p {
     text-align: left;
-    font-size: 1.15em;
+    font-size: 1.2em;
 }
 
 .heresWhat5 {
@@ -252,16 +258,15 @@ details[open] > summary {
     justify-content: center;
     align-items: center;
     text-align: center;
-      
 }
 
 .heresWhat5-1{
-    width: 50%;
+    width: 40%;
 }
 
 .heresWhat5-2{
-    width: 50%;
-    scale: 100%;
+    width: 40%;
+    scale: 110%;
 }
 
 .footer {
@@ -272,11 +277,13 @@ details[open] > summary {
     text-align: center;
     flex-direction: column;
     padding: 30px 10px;
+    
 }
 
 .footerp {
     font-size: 0.7em;
     padding: 0px 50px;
+    max-width: 80%;
 }
 
 
@@ -295,6 +302,10 @@ details[open] > summary {
         columns: 1;
     }
 
+    .questions-column1{
+        max-width: 90%
+    }
+
     .heresWhat5{
         columns: 1;
         flex-direction: column;
@@ -306,5 +317,6 @@ details[open] > summary {
 
     .heresWhat5-2{
         width: 100%;
+        scale: 100%;
     }
 }
